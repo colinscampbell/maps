@@ -9,7 +9,7 @@
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="../dist/jquery.vmap.js"></script>
-    <script type="text/javascript" src="../dist/maps/jquery.vmap.usa.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../dist/jquery.vmap.usa.js" charset="utf-8"></script>
 
     <script>
       jQuery(document).ready(function () {
@@ -18,11 +18,18 @@
           enableZoom: true,
           showTooltip: true,
           selectedColor: null,
-          hoverColor: null,
+          hoverColor: '#0769AD',
           colors: {
-            mo: '#C9DFAF',
+            az: '#C9DFAF',
+            ak: '#C9DFAF',
+            ca: '#C9DFAF',
             fl: '#C9DFAF',
-            or: '#C9DFAF'
+            il: '#C9DFAF',
+            md: '#C9DFAF',
+            ny: '#C9DFAF',
+            tx: '#C9DFAF',
+            ut: '#C9DFAF',
+            wa: '#C9DFAF'
           },
           onRegionClick: function(event, code, region){
             event.preventDefault();
